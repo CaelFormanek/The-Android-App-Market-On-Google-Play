@@ -1,6 +1,7 @@
 # The-Android-App-Market-On-Google-Play
 
 Analysis of Android applications based on multiple variables such as price, storage size, and popularity.
+This project is guided with the help of instruction from datacamp.com
 <br />
 <br />
   
@@ -35,6 +36,24 @@ for col in cols_to_clean:
 ```
 
 ### Techniques for analysis and visualizations:
-* 
+* plotly, go.Bar():
+
+```
+data = [go.Bar(
+        x = num_apps_in_category.index, # index = category name
+        y = num_apps_in_category.values, # value = count
+)]
+
+plotly.offline.iplot(data)
+```
+
+* Seaborn as sns, jointplot, boxplot:
+```
+plt2 = sns.jointplot(x = paid_apps['Price'], y = paid_apps['Rating'])
+```
+```
+ax = sns.boxplot(x = 'Type', y = 'Sentiment_Polarity', data = merged_df)
+```
+
 
 
