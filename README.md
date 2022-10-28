@@ -4,7 +4,7 @@ Analysis of Android applications based on multiple variables such as price, stor
 <br />
 <br />
   
-### Using the data of Android applications to answer the following questions:
+### Using the data of Android applications to complete the following:
 
 * Determine the average application rating across all applications within the sample
 * Show the distribution of application categories
