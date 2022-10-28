@@ -14,3 +14,7 @@ Analysis of Android applications based on multiple variables such as price, stor
   * Category and price of applications
 * Analyze the popularity of free vs paid applications based on sentiment polarity
 
+
+### Methods for data cleaning and type correction:
+
+
